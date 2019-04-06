@@ -1,4 +1,4 @@
-namespace Solution1
+namespace Shape
 {
     public class Square : Rectangle
     {
@@ -6,10 +6,7 @@ namespace Solution1
         private int _width;
         public override int Height
         {
-            get
-            {
-                return _height;
-            }
+            get => _height;
             set
             {
                 _height = value;
@@ -18,10 +15,7 @@ namespace Solution1
         }
         public override int Width
         {
-            get
-            {
-                return _width;
-            }
+            get => _width;
             set
             {
                 _width = value;

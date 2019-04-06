@@ -1,4 +1,4 @@
-namespace Solution1
+namespace Shape
 {
     public class Rectangle
     {
